@@ -1,0 +1,106 @@
+html,
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.hero{
+    background-image: url(hero.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    padding: 50px 12%;
+    color: white;
+}
+.hero .wrapper{
+    width: 400px;
+    padding-bottom: 25px;
+    padding-top: 150px;
+}
+.hero .wrapper h1{
+    font-weight: 700;
+    font-size: 50px;
+}
+.hero .wrapper p{
+    font-weight: 100;
+}
+.button{
+    border: 1px solid #5723EF;
+    background-color: #5723EF;
+    cursor: pointer;
+    padding: 15px 2%;
+    border-radius: 5px;
+    color: white;
+}
+.about{
+    background-color: white;
+    color: black;
+    padding: 50px 12%;
+    height: 100vh;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.flex > div{
+    width: 100%;
+}
+.mobile img{
+    width: 100px;
+    border-radius: 200px;
+    padding-top: 150px;
+}
+.lock img{
+    width: 100px;
+    border-radius: 200px;
+    padding-top: 150px;
+}
+.safe img{
+    width: 100px;
+    border-radius: 200px;
+    padding-top: 150px;
+}
+.about2{
+    background-color: #f3f3f3;
+    height: 100vh;
+}
+.laptop img{
+    width: 450px;
+    padding-left: 150px;
+    padding-top: 100px;
+}
+.lptext{
+    padding: 100px 12%;
+}
+.running{
+    padding: 20px 0;
+    line-height: 25px;
+}
+.laptop2 img{
+    width: 450px;
+    padding: 0 100px;
+    
+}
+.lptext2{
+    padding: 0 10%;
+    width: 150px;
+}
+.team{
+    background-color: white;
+    color: black;
+    padding: 100px 12%;
+    text-align: center;
+}
+.team img{
+    width: 100px;
+    height: 100px;
+    border-radius: 250px;
+}
+.stars img{
+    width: 100px;
+    height: 25px;
+    border-radius: 0;
+}
+.team h4{
+    font-weight: 400;
+}
